@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-process-env",
+  "version": "0.0.2",
+  "author": "xboy2012",
+  "description": "process.env specific linting rules for ESLint",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "rm -rf lib && babel src -d lib"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015-node4": "^2.1.0",
+    "babel-register": "^6.9.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "eslintplugin",
+    "destructuring"
+  ],
+  "license": "MIT"
+}
